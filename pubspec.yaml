@@ -1,0 +1,74 @@
+name: financial_management
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.2.9
+
+environment:
+  sdk: ^3.9.2 # config for Flutter 3.35.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  cupertino_icons: ^1.0.8
+  lottie: ^3.3.2
+  provider: ^6.1.5
+  shared_preferences: ^2.5.3
+  dio: ^5.9.0
+  flutter_dotenv: ^6.0.0
+  package_info_plus: ^9.0.0
+  icons_plus: ^5.0.0
+  shamsi_date: ^1.1.1
+  gradiantbutton: ^0.0.1
+  salomon_bottom_bar: ^3.3.2
+  fl_chart: ^1.1.0
+  flutter_neumorphic_plus: ^3.5.0
+  url_launcher: ^6.3.2
+  dotted_decoration: ^2.0.0
+  persian_number_utility: ^1.1.6
+  image_picker: ^1.2.0
+  persian_datetime_picker: ^3.1.1
+  loading_animation_widget: ^1.3.0
+  file_picker: ^10.3.3
+  delightful_toast: ^1.1.0
+  dotted_border: ^3.1.0
+  native_auth: ^1.0.6
+  shimmer: ^3.0.0
+  flutter_file_downloader: ^2.1.0
+  simple_animation_progress_bar: ^1.9.2
+  open_file: ^3.5.10
+  expandable: ^5.0.1
+  downloadsfolder: ^1.2.0
+  flutter_easyloading: ^3.0.5
+  flip_card: ^0.7.0
+
+dependency_overrides:
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/logo.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
+    - assets/icon/
+    - .env
+
+  fonts:
+    - family: Pinar
+      fonts:
+        - asset: assets/fonts/Pinar.ttf

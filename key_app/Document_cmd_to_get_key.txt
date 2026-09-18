@@ -1,0 +1,37 @@
+Microsoft Windows [Version 10.0.22631.3296]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\alina>keytool -genkey -v -keystore %userprofile%\hesabchi-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias hesabchi
+Enter keystore password: An1087900156
+
+Re-enter new password: An1087900156
+
+Enter the distinguished name. Provide a single dot (.) to leave a sub-component empty or press ENTER to use the default value in braces.
+What is your first and last name?
+  [Unknown]:  Ali Najafzadeh
+What is the name of your organizational unit?
+  [Unknown]:  Torshiz Green Cedar
+What is the name of your organization?
+  [Unknown]:  Torshiz Green Cedar
+What is the name of your City or Locality?
+  [Unknown]:  Kashmar
+What is the name of your State or Province?
+  [Unknown]:  Khorasan Razavi
+What is the two-letter country code for this unit?
+  [Unknown]:  IR
+Is CN=Ali Najafzadeh, OU=Torshiz Green Cedar, O=Torshiz Green Cedar, L=Kashmar, ST=Khorasan Razavi, C=IR correct?
+  [no]:  yes
+
+Generating ????? bit RSA key pair and self-signed certificate (SHA384withRSA) with a validity of ?????? days
+        for: CN=Ali Najafzadeh, OU=Torshiz Green Cedar, O=Torshiz Green Cedar, L=Kashmar, ST=Khorasan Razavi, C=IR
+Enter key password for <hesabchi>
+        (RETURN if same as keystore password): An1087900156
+
+Re-enter new password: An1087900156
+ 
+[Storing C:\Users\alina\hesabchi-keystore.jks]
+
+Warning:
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore C:\Users\alina\hesabchi-keystore.jks -destkeystore C:\Users\alina\hesabchi-keystore.jks -deststoretype pkcs12".
+
+C:\Users\alina>
